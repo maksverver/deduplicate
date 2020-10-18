@@ -1,0 +1,20 @@
+{
+    "sources": {
+        "storage-music": "storage-music.jsonl",
+        "storage-music-bak": "storage-music-bak.jsonl"
+    },
+    "digests_to_ignore": [
+        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    ],
+    "dont_dedupe_prefix": [
+        "/mnt/storage/music/"
+    ],
+    "canonical_roots": {
+        "/mnt/storage/music/": {
+            "/mnt/storage/Music.bak/": "DELETE"
+        },
+        "/mnt/storage/music2/": {
+            "/mnt/storage/Music.bak/": "DELETE"
+        }
+    }
+}
